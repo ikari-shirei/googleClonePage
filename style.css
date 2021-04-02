@@ -114,3 +114,15 @@ body {
   cursor: pointer;
   margin: 0px 12px 0px 8px;
 }
+
+.google-account-name {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  position: relative;
+  bottom: 59%;
+  right: 2%;
+}
