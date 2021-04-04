@@ -30,6 +30,7 @@
   border-radius: 24px;
   background: #fff;
   padding: 8px;
+  cursor: text;
 }
 
 .search-box > input {
