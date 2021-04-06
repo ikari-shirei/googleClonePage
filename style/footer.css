@@ -1,0 +1,33 @@
+.footer {
+  margin: 32px 0px 0px 0px;
+  padding: 12px 12px 0px 0px; 
+  background-color: #f2f2f2;
+  width: 100vw;
+}
+
+.footer div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: unset;
+  padding: 0px 0px 0px 180px;
+}
+
+.footer .location a {
+  color: rgba(0,0,0,.54);
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+  line-height: 40px;
+}
+
+.footer .help {
+  border-top: 1px solid #dadce0;
+  width: 100%;
+}
+
+.footer .help a {
+  color: rgba(0,0,0,.54);
+  font-size: 14;
+  font-family: arial,sans-serif;
+  line-height: 40px;
+  padding-right: 27px;
+}

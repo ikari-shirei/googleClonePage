@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  margin: 18px 20px 0px 16px;
+  margin: 18px 20px 0px 24px;
 }
 
 .navbar-left {
@@ -126,7 +126,7 @@
 .navbar-bottom {
   display: flex;
   align-items: center;
-  margin: 0px 0px 0px 122px;
+  margin: 0px 0px 0px 130px;
   color: #5f6368;
   outline: 0;
   text-decoration: none;

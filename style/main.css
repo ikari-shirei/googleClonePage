@@ -1,5 +1,5 @@
 .search-results {
-  margin: 0px 0px 0px 172px;
+  margin: 0px 0px 0px 180px;
 }
 
 .result-count {
@@ -71,6 +71,10 @@
   font-family: arial,sans-serif;
   margin: 8px 0px 4px 0px;
   cursor: pointer;
+}
+
+.clicked {
+  color: #609 !important;
 }
 
 .result-description {
@@ -210,7 +214,7 @@
 .related-searches-main div div img {
   width: 24px;
   height: 22px;
-  padding: 10px 10px;
+  padding: 10px 24px 10px 10px;
 
 }
 
@@ -229,8 +233,47 @@
 
 .search-end  {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   max-width: 652px;
   justify-content: center;
-  margin-top: 16px;
+  margin: 36px 36px;
+}
+
+.search-end div .long-google {
+  width: 480px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 88px;
+}
+
+.long-google .long-google-logo {
+  height: 40px;
+}
+
+.long-google .long-google-navigate {
+  padding: 0px 0px 0px 10px;
+}
+
+.search-numbers{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 0px 0px 114px;
+}
+
+.active-black  {
+  color: rgba(0,0,0,.87) !important;
+}
+
+.search-numbers div {
+  padding-left: 46px;
+}
+
+.search-numbers h6 {
+  padding: 0px 0px 0px 12px;
+  margin: 0px;
+  color: #4285f4;
+  font-weight: normal;
+  font-family: arial,sans-serif;
+  font-size: 14px;
 }

@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>build this webpage - Google Search</title>
     <link rel="icon" href="img/google.png" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./header.css" />
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
   </head>
   <body>
     <header>
@@ -30,7 +31,7 @@
               <div class="line"></div>
               <img
                 class="search-icon"
-                src="img/search_black_24dp.svg"
+                src="img/search_blue_24dp.svg"
                 alt="Search"
               />
             </div>
@@ -93,7 +94,7 @@
             <img src="img/arrow_drop_down_black_24dp.svg" alt="dropdown" />
           </div>
           <div class="result-header">
-            <h3>build this webpage - GitHub Pages</h3>
+            <h3 class="clicked">build this webpage - GitHub Pages</h3>
           </div>
           <div class="result-description">
             <p>
@@ -115,7 +116,7 @@
             <img src="img/arrow_drop_down_black_24dp.svg" alt="dropdown" />
           </div>
           <div class="result-header">
-            <h3>build this webpage - GitHub Pages</h3>
+            <h3 class="clicked">build this webpage - GitHub Pages</h3>
           </div>
           <div class="result-description">
             <p>
@@ -362,13 +363,48 @@
         </div>
         <div class="search-end">
           <div>
-            <img src="img/long-google.svg" alt="google" />
+            <div class="long-google">
+              <img
+                class="long-google-logo"
+                src="img/long-google.svg"
+                alt="google"
+              />
+              <img
+                class="long-google-navigate"
+                src="img/navigate_next_black_24dp.svg"
+                alt="next"
+              />
+            </div>
+            <div class="search-numbers">
+              <h6 class="active-black">1</h6>
+              <h6>2</h6>
+              <h6>3</h6>
+              <h6>4</h6>
+              <h6>5</h6>
+              <h6>6</h6>
+              <h6>7</h6>
+              <h6>8</h6>
+              <h6>9</h6>
+              <h6>10</h6>
+              <div><h6>Next</h6></div>
+            </div>
           </div>
-          <div>
-            <img src="img/navigate_next_black_24dp.svg" alt="next" />
-          </div>
+          <div></div>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="footer">
+        <div class="location">
+          <a>Turkey</a>
+        </div>
+        <div class="help">
+          <a>Help</a>
+          <a>Send feedback</a>
+          <a>Privacy</a>
+          <a>Terms</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
