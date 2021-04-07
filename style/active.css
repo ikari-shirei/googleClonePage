@@ -1,0 +1,36 @@
+.search-box:hover {
+  background-color: #fff;
+  box-shadow: 0 2px 8px 1px rgba(64,60,67,.24);
+  border-color: rgba(223,225,229,0);
+}
+
+.apps-icon:hover {
+  background-color: rgba(60,64,67,0.08);;
+  border-radius: 100%;
+}
+
+.google-account  a{
+  text-decoration: none;
+}
+
+.result-header h3:hover {
+  text-decoration: underline;
+}
+
+.related-searches h4:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.search-numbers h6:hover {
+  text-decoration: underline;
+}
+
+.active-black:hover {
+  text-decoration: none !important;
+}
+
+.help a:hover {
+  color: #3c4043;
+  cursor: pointer;
+}
