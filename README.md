@@ -1,4 +1,3 @@
-# Google Homepage
+# Google Homepage Clone
 
 The Odin Project
-Google Homepage Clone
